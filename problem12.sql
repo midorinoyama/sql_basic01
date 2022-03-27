@@ -2,5 +2,5 @@
 
 SELECT code, name, continent, region, surface_area, indep_year
 FROM countries
-WHERE indep_year <= "1990"
-OR population >= 100000;
+WHERE indep_year < "1990"
+OR population > 100000;
